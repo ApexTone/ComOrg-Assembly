@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1616055009 source:/home/pi/asm/Lab8/Lab8_mod/mod_s.s
+
+1616054940 source:/home/pi/asm/Lab8/Lab8_mod/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1616055371 source:/home/pi/asm/Lab8/Lab8_mod/mod_func.s
+
