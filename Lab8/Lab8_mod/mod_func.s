@@ -1,4 +1,3 @@
-
     .global mod_func
 mod_func:
 mod_loop:
