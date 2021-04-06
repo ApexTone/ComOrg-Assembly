@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1617717745 source:/home/pi/Desktop/ComOrg-Assembly/Lab10/Lab10_C/main.c
+	<stdio.h>
+	<stdlib.h>
+	<wiringPi.h>
+
