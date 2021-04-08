@@ -1,0 +1,14 @@
+Lab
+Result:
+Can detect bouncing of button by detecting falling edge
+
+
+After lab
+
+2.
+volatile keyword
+https://barrgroup.com/embedded-systems/how-to/c-volatile-keyword
+"...
+C's volatile keyword is a qualifier that is applied to a variable when it is declared. 
+It tells the compiler that the value of the variable may change at any time
+--without any action being taken by the code the compiler finds nearby..."
