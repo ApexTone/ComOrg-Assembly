@@ -1,0 +1,59 @@
+du -h
+12K	./Desktop/ComOrg-Assembly/Lab5/c/Lab5/obj/Debug
+16K	./Desktop/ComOrg-Assembly/Lab5/c/Lab5/obj
+24K	./Desktop/ComOrg-Assembly/Lab5/c/Lab5/bin/Debug
+28K	./Desktop/ComOrg-Assembly/Lab5/c/Lab5/bin
+88K	./Desktop/ComOrg-Assembly/Lab5/c/Lab5
+580K	./Desktop/ComOrg-Assembly/Lab5/c
+832K	./Desktop/ComOrg-Assembly/Lab5
+20M	./Desktop/ComOrg-Assembly
+92M	./Desktop
+1.6G	.
+
+
+pi@raspberrypi:~ $ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root        12G   12G  197M  99% /
+devtmpfs        1.7G     0  1.7G   0% /dev
+tmpfs           1.8G  7.5M  1.8G   1% /dev/shm
+tmpfs           1.8G  8.6M  1.8G   1% /run
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           1.8G     0  1.8G   0% /sys/fs/cgroup
+/dev/mmcblk0p6  253M   48M  205M  19% /boot
+tmpfs           365M  4.0K  365M   1% /run/user/1000
+/dev/mmcblk0p1  2.4G  2.4G   89M  97% /tmp/tmp.wIoxBrmSoG
+
+
+pi@raspberrypi:~ $ df -T
+Filesystem     Type     1K-blocks     Used Available Use% Mounted on
+/dev/root      ext4      12420920 11621620    201124  99% /
+devtmpfs       devtmpfs   1736388        0   1736388   0% /dev
+tmpfs          tmpfs      1868484     7620   1860864   1% /dev/shm
+tmpfs          tmpfs      1868484     8780   1859704   1% /run
+tmpfs          tmpfs         5120        4      5116   1% /run/lock
+tmpfs          tmpfs      1868484        0   1868484   0% /sys/fs/cgroup
+/dev/mmcblk0p6 vfat        258094    48782    209312  19% /boot
+tmpfs          tmpfs       373696        4    373692   1% /run/user/1000
+/dev/mmcblk0p1 vfat       2503040  2412416     90624  97% /tmp/tmp.wIoxBrmSoG
+
+
+pi@raspberrypi:~ $ df -i
+Filesystem     Inodes  IUsed  IFree IUse% Mounted on
+/dev/root      798112 220308 577804   28% /
+devtmpfs        98146    464  97682    1% /dev
+tmpfs          164194      2 164192    1% /dev/shm
+tmpfs          164194    647 163547    1% /run
+tmpfs          164194      3 164191    1% /run/lock
+tmpfs          164194     15 164179    1% /sys/fs/cgroup
+/dev/mmcblk0p6      0      0      0     - /boot
+tmpfs          164194     20 164174    1% /run/user/1000
+/dev/mmcblk0p1      0      0      0     - /tmp/tmp.wIoxBrmSoG
+
+
+AFTER LAB
+2.
+pi@raspberrypi:~/Desktop/ComOrg-Assembly/Lab12 $ ls -l
+total 8
+-rw-r--r-- 1 pi pi 2124 Apr 16 15:10 Lab12_Data.txt
+-rw-r--r-- 1 pi pi    2 Apr 16 15:13 test.txt
+6. user permission bits... (do it yourself)
