@@ -4,7 +4,7 @@
 
 #define BUTTON_PIN 0
 
-int delayTime = 1000, state=0;
+volatile int delayTime = 1000, state=0;
 void myInterrupt(void){
     if(state==0){
         delayTime = 500;
