@@ -31,10 +31,6 @@ devtmpfs       devtmpfs   1736388        0   1736388   0% /dev
 tmpfs          tmpfs      1868484     7620   1860864   1% /dev/shm
 tmpfs          tmpfs      1868484     8780   1859704   1% /run
 tmpfs          tmpfs         5120        4      5116   1% /run/lock
-tmpfs          tmpfs      1868484        0   1868484   0% /sys/fs/cgroup
-/dev/mmcblk0p6 vfat        258094    48782    209312  19% /boot
-tmpfs          tmpfs       373696        4    373692   1% /run/user/1000
-/dev/mmcblk0p1 vfat       2503040  2412416     90624  97% /tmp/tmp.wIoxBrmSoG
 
 
 pi@raspberrypi:~ $ df -i
