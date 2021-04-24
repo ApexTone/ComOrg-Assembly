@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <omp.h>
-#define N 200
+#define N 1000
 float A[N][N], B[N][N], C[N][N]; // matrices of NxN elements
 int main ()
 {
@@ -21,9 +21,9 @@ int main ()
         }
     }
     /* MATRIX MULTIPLICATION */
-    printf(”Max number of threads: %i \n”,omp_get_max_threads());
+    printf("Max number of threads: %i \n",omp_get_max_threads());
     #pragma omp parallel
-    printf(”Number of threads: %i \n”,omp_get_num_threads());
+    printf("Number of threads: %i \n",omp_get_num_threads());
     c_1=time(NULL); // time measure: start time
     #pragma omp parallel for private(k, j)
     for(i=0; i<N; i++)
@@ -39,7 +39,7 @@ int main ()
     }
     c_2=time(NULL); // time measure: stop time
     t_mul = (float)(c_2-c_1); // Multiply time
-    printf(”Mutiply Time: %f \n”,t_1);
+    printf("Mutiply Time: %f \n",t_mul);
     /* TERMINATE PROGRAM */
     return 0;
 }

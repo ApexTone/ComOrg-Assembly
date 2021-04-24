@@ -1,0 +1,37 @@
+M1 CPU Utilization
+Resting: 0%
+240P: 13%-20%
+480P: 17%-27%
+720P: 22%-29%
+
+M2 Matrix Mult Parallel (avg in excel) CPUmax(no avg)
+N=200
+n=1  5%
+n=2 6%
+n=4 7%
+n=8 7%
+
+N=400
+n=1 14%
+n=2 24%
+n=4 25%
+n=8 25%
+
+N=800
+n=1 25%
+n=2 50%
+n=4 100%
+n=8 100%
+
+N=1000
+n=1 25%
+n=2 50%
+n=4 100%
+n=8 100%
+
+M3,M4 in excel
+
+After lab
+1. why average?
+8. more thread, more speed?
+
