@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <omp.h>
-#define N 1000
+#define N 200
 float A[N][N], B[N][N], C[N][N]; // matrices of NxN elements
 int main ()
 {
